@@ -1,0 +1,80 @@
+.loginPage {
+  border: 2px solid red;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  height: 600px;
+  margin: 50px;
+
+}
+.name {
+  display: flex;
+  height: 50px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.firstname {
+  margin: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  font-size:17px;
+  text-align: center;
+}
+.lastname {
+  margin: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 300px;
+  font-size:17px;
+  text-align: center;
+}
+.password {
+  align-items: center;
+  justify-content: center;
+text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  font-size:20px;
+}
+.email{
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    font-size:20px;
+}
+.loginbutton{
+    background-color:blueviolet !important;
+  color: white !important;
+  text-transform: inherit !important ;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  height: 70px;
+  width: 150px;
+  border-radius: 30px !important;
+  margin: 60px !important;
+}
+.loginPage_info{
+    margin:20px;
+
+}
+
+.loginIcon{
+    color: red;
+    
+    
+}
+.loginPage_info>h1{
+    font-size: 50px;
+font-weight: 700;
+
+}

@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  top:0;
+  margin-top: 15px;
+ 
+}
+.header_icon {
+  object-fit: contain;
+  height: 50px;
+  margin-left: 40px;
+  
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding:10px
+}
+.header_center>input{
+    border: none;
+    outline-width: 0;
+    width: 200px;
+}
+.header_signup {
+  background-color:azure !important;
+  color: black !important;
+  text-transform: inherit !important ;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  height: 40px;
+  border-radius: 40px !important;
+}
+
+.header_signup:hover{
+  background-color: white!important;
+color:blue !important;
+}
+    
+    
+

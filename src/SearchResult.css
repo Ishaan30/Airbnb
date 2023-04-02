@@ -1,0 +1,88 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  opacity: 0.8;
+}
+
+.searchResult > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+ align-items: center;
+}
+
+.searchResult_heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: palevioletred;
+}
+
+.searchResult_infoTop {
+  width: 40vw;
+}
+
+.searchResult_infoTop > h3 {
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.searchResult_infoTop > p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.searchResult_infoBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.searchResult_star{
+  color: red;
+
+  
+}
+
+
+.searchResult_stars {
+  display: flex;
+  margin-right: 580px;
+  align-items: center;
+
+}
+
+.searchResult_price {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.searchResult_price > h2{
+    text-align: left;
+    color:black;
+    margin-bottom: 4px;
+}
+.searchResult_price > p {
+  text-align: left;
+  margin-top: 2px;
+}
